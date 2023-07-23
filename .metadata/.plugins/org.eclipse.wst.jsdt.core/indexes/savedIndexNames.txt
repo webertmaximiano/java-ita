@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/webert/www/cursos/java-ita/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2732204106.index
+2076095566.index
+183259548.index
+3794868920.index
+783722486.index
+3279537858.index

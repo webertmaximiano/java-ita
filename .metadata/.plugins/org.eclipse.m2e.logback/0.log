@@ -1,0 +1,29 @@
+2023-06-23 12:45:13,337 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-23 14:52:03,102 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-23 17:56:01,140 [Worker-97: http://download.eclipse.org/technology/m2e/releases/compositeContent.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://download.eclipse.org:443
+2023-06-23 17:56:16,358 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-23 18:08:04,425 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-01 08:14:21,629 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-07-01 08:23:06,336 [main] INFO  org.eclipse.jetty.server.Server - jetty-10.0.13; built: 2022-12-07T20:13:20.134Z; git: 1c2636ea05c0ca8de1ffd6ca7f3a98ac084c766d; jvm 17.0.7+7
+2023-07-01 08:23:06,361 [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-07-01 08:23:06,386 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4af51c6a{/wse,null,AVAILABLE}
+2023-07-01 08:23:06,394 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4afb557c{HTTP/1.1, (http/1.1)}{0.0.0.0:35367}
+2023-07-01 08:23:06,403 [main] INFO  org.eclipse.jetty.server.Server - Started Server@64bfcb1f{STARTING}[10.0.13,sto=0] @534718ms
+2023-07-01 10:01:56,761 [Framework stop - Equinox Container: 507e6ec3-d00f-4673-98a4-2e705970993e] INFO  org.eclipse.jetty.server.Server - Stopped Server@64bfcb1f{STOPPING}[10.0.13,sto=0]
+2023-07-01 10:01:56,764 [Framework stop - Equinox Container: 507e6ec3-d00f-4673-98a4-2e705970993e] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@4afb557c{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+2023-07-01 10:01:56,774 [Framework stop - Equinox Container: 507e6ec3-d00f-4673-98a4-2e705970993e] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4af51c6a{/wse,null,STOPPED}
+2023-07-01 10:02:08,074 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-01 11:08:21,118 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-02 10:08:05,230 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-07-23 10:00:48,785 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-07-23 10:05:09,113 [main] INFO  org.eclipse.jetty.server.Server - jetty-10.0.13; built: 2022-12-07T20:13:20.134Z; git: 1c2636ea05c0ca8de1ffd6ca7f3a98ac084c766d; jvm 17.0.7+7
+2023-07-23 10:05:09,136 [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-07-23 10:05:09,162 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@551a24f{/wse,null,AVAILABLE}
+2023-07-23 10:05:09,171 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7c315b7c{HTTP/1.1, (http/1.1)}{0.0.0.0:34051}
+2023-07-23 10:05:09,182 [main] INFO  org.eclipse.jetty.server.Server - Started Server@55aa7cc0{STARTING}[10.0.13,sto=0] @269528ms
+2023-07-23 10:28:21,783 [Framework stop - Equinox Container: 6873677d-3064-4ae0-bb65-7b4f4689737d] INFO  org.eclipse.jetty.server.Server - Stopped Server@55aa7cc0{STOPPING}[10.0.13,sto=0]
+2023-07-23 10:28:21,792 [Framework stop - Equinox Container: 6873677d-3064-4ae0-bb65-7b4f4689737d] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7c315b7c{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+2023-07-23 10:28:21,803 [Framework stop - Equinox Container: 6873677d-3064-4ae0-bb65-7b4f4689737d] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@551a24f{/wse,null,STOPPED}
+2023-07-23 10:41:07,351 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-23 10:59:40,603 [Worker-17: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-23 13:06:05,386 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
