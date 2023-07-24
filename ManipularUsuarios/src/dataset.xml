@@ -1,0 +1,5 @@
+<dataset>
+    <USUARIO LOGIN="user1" NOME="Usuário 1" EMAIL="user1@example.com" SENHA="senha1" PONTOS="10" />
+    <USUARIO LOGIN="user2" NOME="Usuário 2" EMAIL="user2@example.com" SENHA="senha2" PONTOS="20" />
+    <!-- Adicione mais usuários de acordo com a sua necessidade -->
+</dataset>

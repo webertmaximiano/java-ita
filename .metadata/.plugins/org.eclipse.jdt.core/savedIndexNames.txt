@@ -1,18 +1,5 @@
 INDEX VERSION 1.134+/home/webert/www/cursos/java-ita/.metadata/.plugins/org.eclipse.jdt.core
-631601983.index
-3248963624.index
-1687946814.index
-1199519250.index
-444991058.index
-1840564415.index
-740753909.index
+126774444.index
 3465112313.index
 1865797976.index
-2155449627.index
-1349402322.index
-2071744948.index
-1136569396.index
-1056843006.index
-1891953014.index
-643925306.index
-3884769072.index
+444991058.index
