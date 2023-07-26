@@ -23,17 +23,17 @@
                     </tr>
                 </thead>
 <tbody>
-    <% 
+    <%
     List<Topico> topicos = (List<Topico>) request.getAttribute("topicos");
     if (topicos != null && !topicos.isEmpty()) {
-        for (Topico topico : topicos) { 
+        for (Topico topico : topicos) {
     %>
     <tr>
         <td class="border px-4 py-2">
             <%= topico.getId_topico() %>
         </td>
         <td class="border px-4 py-2">
-            <a href="/exibeTopico?id=<%= topico.getId_topico() %>">
+            <a href="exibeTopico?id=<%= topico.getId_topico() %>">
                 <%= topico.getTitulo() %>
             </a>
         </td>
@@ -41,15 +41,16 @@
             <%= topico.getUsuario().getNome() %>
         </td>
     </tr>
-    <% 
+    <%
         }
-    } else { 
+    } else {
     %>
     <tr>
         <td colspan="3" class="border px-4 py-2">Nenhum tópico encontrado.</td>
     </tr>
     <% } %>
 </tbody>
+
 
             </table>
             <div class="mt-4">

@@ -22,12 +22,12 @@
             </li>
         <% } %>
     </ul>
-    <form method="post" action="AdicionarComentarioServletController">
-        <input type="hidden" name="topicoId" value="<%= request.getAttribute("topicoId") %>">
-        <textarea name="novoComentario"></textarea>
-        <input type="submit" value="Adicionar Comentário">
-    </form>
+    <form method="post" action="${pageContext.request.contextPath}/comentario">
+	    <input type="hidden" name="topicoId" value="<%= request.getAttribute("topicoId") %>">
+	    <textarea name="comentario"></textarea>
+	    <input type="submit" value="Adicionar Comentário">
+	</form>
     <br>
-    <a href="TopicosServletController">Voltar para Tópicos</a>
+    <a href="${pageContext.request.contextPath}/topicos" class="text-blue-500 hover:underline">Voltar para Tela Tópicos</a>
 </body>
 </html>

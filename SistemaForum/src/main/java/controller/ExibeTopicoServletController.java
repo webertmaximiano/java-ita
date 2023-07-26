@@ -23,6 +23,7 @@ public class ExibeTopicoServletController extends HttpServlet {
     public ExibeTopicoServletController() {
         super();
         topicoDAO = new TopicoDAO();
+        comentarioDAO = new ComentarioDAO();
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -35,6 +36,7 @@ public class ExibeTopicoServletController extends HttpServlet {
         List<Comentario> comentarios = comentarioDAO.comentariosPorTopico(topicoId);
 
         // Definir os atributos para a página exibeTopico.jsp
+        request.setAttribute("topicoId", topicoId); // Definindo o atributo topicoId no request
         request.setAttribute("topicoTitulo", topico.getTitulo());
         request.setAttribute("topicoAutor", topico.getUsuario().getNome());
         request.setAttribute("topicoTexto", topico.getConteudo());

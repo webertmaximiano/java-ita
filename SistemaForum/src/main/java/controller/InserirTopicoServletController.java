@@ -39,7 +39,7 @@ import model.Usuario;
 			Usuario usuario = (Usuario) request.getSession().getAttribute("usuario");
 			topico.setUsuario(usuario);
 			
-			topicoDAO.inserirNovo(topico);
+			topicoDAO.inserirTopico(topico);
 			usuarioDAO.adicionarPontos(usuario.getLogin(), 10);
 			
 			response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/topicos"));
