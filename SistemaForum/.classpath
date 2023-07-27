@@ -13,12 +13,20 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="lib/postgresql-42.6.0.jar"/>
 	<classpathentry kind="lib" path="lib/dbunit-2.4.9.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/postgresql-42.6.0.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar"/>
-	<classpathentry kind="lib" path="lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/mockito-core-5.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/mockito-subclass-5.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/objenesis-3.3.jar"/>
+	<classpathentry kind="lib" path="lib/byte-buddy-1.14.5.jar"/>
+	<classpathentry kind="lib" path="lib/byte-buddy-agent-1.14.5.jar"/>
+	<classpathentry kind="lib" path="lib/taglibs-standard-jstlel-1.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/log4j.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-firefox-driver-4.10.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

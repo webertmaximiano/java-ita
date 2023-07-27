@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <topico id_topico="1" titulo="Tópico 1" conteudo="Conteúdo do tópico 1" login="usuario1" />
+    <topico id_topico="2" titulo="Tópico 2" conteudo="Conteúdo do tópico 2" login="usuario2" />
+    <!-- Adicione mais elementos <topico> para mais dados de teste -->
+</dataset>
