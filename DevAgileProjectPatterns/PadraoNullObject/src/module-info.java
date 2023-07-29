@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module PadraoNullObject {
+	requires junit;
+}
