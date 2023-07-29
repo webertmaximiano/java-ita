@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module PadraoStrategy {
+	requires junit;
+}
