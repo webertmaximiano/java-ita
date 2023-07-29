@@ -4,7 +4,7 @@ public class Item {
 
 	private String nome;
 	private double valor;
-	private Desconto desconto;
+	private Desconto desconto = new SemDesconto();// padrao null object
 	
 	public Item(String nome, double valor, Desconto desconto) {
 		super();
@@ -21,17 +21,11 @@ public class Item {
 
 	@Override
 	public String toString() {
-		if (desconto!= null)
-			return nome + " R$" + desconto.darDesconto(valor);
-		else
-			return nome + " R$" + valor;
+		return nome + " R$" + desconto.darDesconto(valor);
 	}
 
 	public double precoQuantidade(int qtd) {
-		if (desconto != null)
-			return desconto.darDesconto(valor) * qtd;
-		else
-			return valor * qtd;
+		return desconto.darDesconto(valor) * qtd;
 	}
 
 }
