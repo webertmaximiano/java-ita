@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module PadraoComposite {
+	requires junit;
+}
