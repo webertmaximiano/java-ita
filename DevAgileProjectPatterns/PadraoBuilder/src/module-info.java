@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module PadraoBuilder {
+	requires junit;
+}
